@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "62PW84QBS8.com.circularedge.atomiq" ],
+             "components": [
+               {
+                  "#": "/dashboard/*",
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/dashboard/*",
+                  "comment": "Matches any URL whose path starts with /dashboard/"
+               }
+             ]
+           }
+       ]
+   }
+}
